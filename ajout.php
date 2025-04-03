@@ -4,7 +4,10 @@
     <title>Ajouter un produit</title>
 </head>
 <body>
-    <h1 class="text-center">Ajouter un produit</h1>
+    <header>
+        <h2 id="form" class="text-center">Ajouter un produit</h2>
+    </header>
+    <main class="container">
     <form action="./traitementAjout.php" method="post" enctype="multipart/form-data" class="form">
         <div class="form-group">
             <label for="name" class="form-label">Nom du produit</label>
@@ -41,5 +44,6 @@
 
         <button type="submit" class="btn btn-ajouter">Ajouter le produit</button>
     </form>
+    </main>
 </body>
 </html>

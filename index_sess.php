@@ -9,7 +9,6 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Logo" width="100">
         <h2 id="form" class="text-center">Se connecter</h2>
     </header>
 

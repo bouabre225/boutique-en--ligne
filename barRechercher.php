@@ -46,7 +46,7 @@ try {
     <link rel="stylesheet" href="styles/bootstrap@5.3.2/css/bootstrap.min.css">
 </head>
 <body>
-    <h2 class="text-center">Recherche de produits</h2>
+    <h2 class="text-center">Boutigue en ligne</h2>
 
     <div class="search-container">
         <form action="barRechercher.php" method="GET" class="search-form">
