@@ -8,8 +8,13 @@
     <title>connection</title>
 </head>
 <body>
-   <main>
-    <h2 id="form" class="text-center">Se connecter</h2>
+    <header>
+        <img src="images/logo.png" alt="Logo" width="100">
+        <h2 id="form" class="text-center">Se connecter</h2>
+    </header>
+
+   <main class="container">
+    <div class="form">
         <form method="post" action="traitement.php" id="list" class="form">
             <label for="login" class="form-label">Login</label>
             <input type="text" id="login" name="login" placeholder="Entrez votre nom d'utilisateur" class="form-control">
@@ -17,7 +22,12 @@
             <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" require class="form-control">    
             <input type="submit" value="Se connecter" class="btn">
         </form>
-        <p><a href="deconn.php" class="btn">Se déconnecter</a></p>
+        </div>
+        <div class="text-center">
+            <p><a href="deconn.php" class="btn">Se déconnecter</a></p>
+        </div>
+        
+
    </main>
 </body>
 </html>
